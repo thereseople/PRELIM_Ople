@@ -1,0 +1,88 @@
+body {
+	margin: 0px;
+}
+
+#container {
+    
+	margin: 0px auto;
+    max-width: 395px;
+    
+}
+
+.main {
+
+	background-color: white;
+    border: solid 1px #06D0DD;
+	border-radius: 5px;
+	margin: 5px;
+    padding: 20px;
+    
+    
+}
+
+
+.img {
+    
+    float: center;
+    height: 290px;
+    width: 383px;
+	margin-left: -20px;
+    margin-top: -56px;
+    
+}
+
+input[type=text] {
+    width:100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+button[type=submit]{
+    width: 100%;
+    background-color: #1070FF;
+    color: white;
+    padding: 14px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: ribeye;
+    font-size: 17px;
+
+}
+button[type=submit]:hover{
+    opacity: 0.4;
+    
+}
+button[type=forgotPW]{
+    width: 30%;
+    background-color:transparent;
+    color:#0A70CE;
+    padding: 0px 0px;
+    border:none;
+    border-radius: 0px;
+    cursor:pointer;
+    float: left;
+    
+}
+button[type=forgotPW]:hover{
+    opacity: 0.8;
+    
+}
+button[type=CA]{
+    width: 30%;
+    background-color:transparent;
+    color:#0A70CE;
+    padding: 0px 0px;
+    border:none;
+    border-radius: 0px;
+    cursor:pointer;
+    float: right;
+    
+}
+button[type=CA]:hover{
+     opacity: 0.8;
+}

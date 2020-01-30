@@ -1,0 +1,74 @@
+body {
+	margin: 0px;
+}
+
+#container {
+    
+	margin: 0px auto;
+    max-width: 395px;
+    background-size:cover;
+}
+
+.main {
+
+	background-color: white;
+    border: solid 1px #06D0DD;
+	border-radius: 5px;
+	margin: 5px;
+    padding: 20px;
+    
+    
+}
+
+
+.img {
+    
+    float: center;
+    height: 290px;
+    width: 383px;
+	margin-left: -20px;
+    margin-top: -56px;
+    background-size: cover;
+}
+
+input[type=text] {
+    width:100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+button[type=register]{
+    width: 100%;
+    background-color: #1070FF;
+    color: white;
+    padding: 14px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: ribeye;
+    font-size: 17px;
+
+}
+button[type=register]:hover{
+    opacity: 0.4;
+    
+}
+
+button[type=login]{
+    width: 30%;
+    background-color:transparent;
+    color:#0A70CE;
+    padding: 0px 0px;
+    border:none;
+    border-radius: 0px;
+    cursor:pointer;
+    align=center;
+    
+}
+button[type=CA]:hover{
+     opacity: 0.8;
+}
